@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Help Scout Example',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        useMaterial3: false,
+        primarySwatch: Colors.green,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: MyHomePage(),

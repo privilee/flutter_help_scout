@@ -18,7 +18,7 @@ A new Flutter plugin.
   s.platform = :ios, '11.0'
   s.static_framework = true
 
-  s.dependency 'Beacon', '2.2.3'
+  s.dependency 'Beacon', '5.1.2'
 
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }

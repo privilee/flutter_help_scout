@@ -9,7 +9,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath 'com.android.tools.build:gradle:7.2.0'
     }
 }
 
@@ -23,7 +23,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 34
 
     defaultConfig {
         minSdkVersion 21
@@ -33,7 +33,7 @@ android {
     }
 }
 dependencies {
-    implementation "com.helpscout:beacon-ui:$beaconVersion"
+    implementation "com.helpscout:beacon:$beaconVersion"
     implementation 'androidx.core:core-ktx:1.2.0'
     implementation 'androidx.appcompat:appcompat:1.1.0'
 }
